@@ -43,6 +43,7 @@
 .banner .rock{
     position: absolute;
     inset: 0 0 0 0;
+    width: 100%;
     pointer-events: none;    
 }
 
@@ -60,7 +61,8 @@
 }
 
 .banner:has(.product:hover) .rock img:nth-child(1){
-    transform:  translateX(-50px) translateY(50px);;
+    /* transform:  translateX(-50px) translateY(50px); */
+    bottom: -60px;
 }
 
 /* 2nd rock image */
